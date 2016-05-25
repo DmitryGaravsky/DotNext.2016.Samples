@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskOfTheDay", "TaskOfTheDay\TaskOfTheDay.csproj", "{FC29FEC7-C1F3-4CEE-8AEB-3B39DA51D7C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00_ilBytes", "00_ilBytes\00_ilBytes.csproj", "{938AA362-4BF9-484E-8613-582A185E6C58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Theory", "01_Theory", "{3A3D7AF9-476C-4BE8-840F-9D1F5DCA9D08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_darkSide", "07_darkSide\01_darkSide.csproj", "{6CEB4283-508A-4276-A491-41BEDC961CBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{BF3CF3C0-42E7-4891-8E3A-5F9FF9CBCC80}"
+	ProjectSection(SolutionItems) = preProject
+		libs\EntityPtr.dll = libs\EntityPtr.dll
+		libs\FastAccessors.dll = libs\FastAccessors.dll
+		libs\ILReader.Analyzer.dll = libs\ILReader.Analyzer.dll
+		libs\ILReader.Core.dll = libs\ILReader.Core.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Practice", "02_Practice", "{F9904C23-ED5F-400B-9455-EB3048FEB489}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_castGen", "01_castGen\01_castGen.csproj", "{D33F0194-3881-4693-B18E-1B8339DF48B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC29FEC7-C1F3-4CEE-8AEB-3B39DA51D7C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC29FEC7-C1F3-4CEE-8AEB-3B39DA51D7C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC29FEC7-C1F3-4CEE-8AEB-3B39DA51D7C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC29FEC7-C1F3-4CEE-8AEB-3B39DA51D7C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{938AA362-4BF9-484E-8613-582A185E6C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{938AA362-4BF9-484E-8613-582A185E6C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{938AA362-4BF9-484E-8613-582A185E6C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{938AA362-4BF9-484E-8613-582A185E6C58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CEB4283-508A-4276-A491-41BEDC961CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CEB4283-508A-4276-A491-41BEDC961CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CEB4283-508A-4276-A491-41BEDC961CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CEB4283-508A-4276-A491-41BEDC961CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D33F0194-3881-4693-B18E-1B8339DF48B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D33F0194-3881-4693-B18E-1B8339DF48B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D33F0194-3881-4693-B18E-1B8339DF48B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D33F0194-3881-4693-B18E-1B8339DF48B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{938AA362-4BF9-484E-8613-582A185E6C58} = {3A3D7AF9-476C-4BE8-840F-9D1F5DCA9D08}
+		{6CEB4283-508A-4276-A491-41BEDC961CBE} = {3A3D7AF9-476C-4BE8-840F-9D1F5DCA9D08}
+		{D33F0194-3881-4693-B18E-1B8339DF48B2} = {F9904C23-ED5F-400B-9455-EB3048FEB489}
+	EndGlobalSection
+EndGlobal
